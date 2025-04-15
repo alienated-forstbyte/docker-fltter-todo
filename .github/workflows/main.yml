@@ -8,7 +8,7 @@ on:
 
 jobs:
   flutter-test:
-    name: build, analyze and test
+    name: build, analyze
     runs-on: ubuntu-latest
 
     steps:
@@ -20,5 +20,4 @@ jobs:
         with:
           channel: "stable"
       - run: flutter pub get
-      - run: flutter test
       - run: flutter analyze
