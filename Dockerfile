@@ -8,3 +8,5 @@ COPY ./build/web /usr/share/nginx/html
 
 # nginx listens to port 80 by default not neccessary to write
 #EXPOSE 80
+
+
